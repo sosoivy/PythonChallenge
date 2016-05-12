@@ -42,4 +42,4 @@ for times in l:
   
     v = (v + 1) % 4  # j + 1 if j != 4 else 0  
   
-res.save('E:\Development\GitHub\PythonChallenge\res.png','wb')  
+res.save('E:\Development\GitHub\PythonChallenge\res.png')  
