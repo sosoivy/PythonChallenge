@@ -6,7 +6,7 @@ Created on Thu May 12 23:50:05 2016
 """
 
 from PIL import Image  
-im = Image.open(r'wire.png')  
+im = Image.open(r'E:\Development\GitHub\PythonChallenge\wire.png')  
 result = Image.new(im.mode,(100,100))  
 direction = [(1,0),(0,1),(-1,0),(0,-1)]  
 x,y = -1,0  
