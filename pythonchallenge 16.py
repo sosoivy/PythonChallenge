@@ -3,7 +3,7 @@
 from PIL import Image
 import numpy as np
 
-im = Image.open('E:\Development\GitHub\PythonChallenge\mozart.gif')
+im = Image.open('mozart.gif')
 imdata = list(im.getdata())
 imdata = np.array(imdata)
 imdata = imdata.reshape((480, 640))
